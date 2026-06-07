@@ -174,7 +174,7 @@
 
 <script>
     // 1. Paste your Google Apps Script Web App URL here
-    const WEB_APP_URL = "https://script.google.com/macros/s/AKfycby8tZaAilyvHPHdxuT62N6okk8c0XLtHZEKwIkJfkFWTHIFKYASCrs9OVsp8NhESzr_KA/exec";
+    const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwrThsfUELcY2hhGbY6GE6_CD2CAApn-n4-jdH8u_41gSeSZldV_VeTxlJpFkr0ul3dNg/exec";
 
     // Automatically set today's date in the input fields
     document.getElementById('date').valueAsDate = new Date();
@@ -187,7 +187,7 @@
         e.preventDefault();
 
         // Safety check if you forgot to replace the script URL placeholder
-        if (WEB_APP_URL.includes("https://script.google.com/macros/s/AKfycby8tZaAilyvHPHdxuT62N6okk8c0XLtHZEKwIkJfkFWTHIFKYASCrs9OVsp8NhESzr_KA/exec")) {
+        if (WEB_APP_URL.includes("https://script.google.com/macros/s/AKfycbwrThsfUELcY2hhGbY6GE6_CD2CAApn-n4-jdH8u_41gSeSZldV_VeTxlJpFkr0ul3dNg/exec")) {
             showStatus("Error: Please update the script with your real Google Web App URL.", "error");
             return;
         }
